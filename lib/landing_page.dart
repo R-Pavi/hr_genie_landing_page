@@ -42,8 +42,8 @@ class HomeScreen extends StatelessWidget {
                       children: [                      
                         Row(
                           children: [
-                            Expanded(
-                              flex: 1,
+                            Expanded(    
+                              flex: 1,                          
                               child: Column(
                                 children: [
                                   Row(
@@ -90,25 +90,13 @@ class HomeScreen extends StatelessWidget {
                                   const SizedBox(height: 35),
                                   Row(
                                     children: [
-                                      Column(
-                                        children: [
-                                          SizedBox(
-                                              width: 150,
-                                              height: 150,
-                                              child: SvgPicture.asset(
-                                                  'assets/Figma_code.svg'))
-                                        ],
-                                      ),
+                                      SizedBox(
+                                          width: 150,
+                                          height: 150,
+                                          child: SvgPicture.asset(
+                                              'assets/Figma_code.svg')),
                                       const SizedBox(width: 35),
-                                      Column(
-                                        children: [
-                                          SizedBox(
-                                              width: 150,
-                                              height: 150,
-                                              child: SvgPicture.asset(
-                                                  'assets/Figma_code.svg'))
-                                        ],
-                                      ),
+                                      
                                     ],
                                   ),
                                   const SizedBox(
@@ -117,7 +105,7 @@ class HomeScreen extends StatelessWidget {
                                   Row(
                                     children: [
                                       Text(
-                                        'Scan for our prototype and apk',
+                                        'Scan for demo with \nour prototype',
                                         style: GoogleFonts.nunito(
                                           color: ktextColor,
                                           fontSize: 20,
@@ -127,21 +115,24 @@ class HomeScreen extends StatelessWidget {
                                   ),
                                 ],
                               ),
-                            ),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.end,
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              children: [
-                                SizedBox(                                  
-                                  child:
-                                      SvgPicture.asset('assets/Phones.jpg')
-                                ),
-                              ],
+                            ),                            
+                            Expanded(
+                              flex: 1,
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.end,
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: [
+                                  SizedBox(                                  
+                                    child:
+                                      Expanded(child: Image.asset('assets/Phones.png'))
+                                  ),
+                                ],
+                              ),
                             ),
                           ],
                         ),
                         const SizedBox(
-                          height: 35,
+                          height: 40,
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -441,32 +432,32 @@ class HomeScreen extends StatelessWidget {
                                     imagePath: 'assets/Anas.jpeg',
                                     title:
                                         '"I see widgets everywhere"\n',
-                                    subtitle: 'Anas Rul',
-                                    description: 'Mobile Developer',
+                                    subtitle: '- Anas Rul',
+                                    description: '- Mobile Developer',
                                   ),
                                   SizedBox(width: 25),
                                   BlueCard(
                                     imagePath: 'assets/Hafiz.jpeg',
                                     title:
                                         '"Why declare wars when we can declare variables?"',
-                                    subtitle: 'Hafiz',
-                                    description: 'BackEnd Developer',
+                                    subtitle: '- Hafiz',
+                                    description: '- BackEnd Developer',
                                   ),
                                   SizedBox(width: 25),
                                   BlueCard(
                                     imagePath: 'assets/Amar.jpg',
                                     title:
                                         '"Be Unique & Creative"\n',
-                                    subtitle: 'Amarnath',
-                                    description: 'Quality Analyst',
+                                    subtitle: '- Amarnath',
+                                    description: '- Quality Analyst',
                                   ),
                                   SizedBox(width: 25),
                                   BlueCard(
                                     imagePath: 'assets/Pavi.jpeg',
                                     title:
                                         '"Shoutout to Plugin"\n',
-                                    subtitle: 'Pavithra',
-                                    description: 'Product Designer',
+                                    subtitle: '- Pavithra',
+                                    description: '- Product Designer',
                                   ),
                                 ],
                               ),
