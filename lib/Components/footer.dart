@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hr_genie_landing/constant.dart';
+import 'package:hr_genie_landing/Components/constant.dart';
 
 class Footer extends StatelessWidget {
   const Footer({super.key});

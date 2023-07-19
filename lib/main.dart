@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hr_genie_landing/constant.dart';
+import 'package:hr_genie_landing/Components/constant.dart';
 import 'landing_page.dart';
 
 

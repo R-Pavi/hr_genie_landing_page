@@ -68,6 +68,7 @@ flutter:
     - assets/Vector.svg
     - assets/Features.svg
     - assets/Features_Phone.svg
+    - assets/Features_Phone_Mob.png
     - assets/Features_Phone.png
     - assets/avatar.jpg
     - assets/Genie.png
