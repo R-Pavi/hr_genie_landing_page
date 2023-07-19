@@ -438,33 +438,33 @@ class HomeScreen extends StatelessWidget {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   BlueCard(
-                                    imagePath: 'assets/avatar.jpg',
+                                    imagePath: 'assets/Anas.jpeg',
                                     title:
-                                        '"Building a mobile app that saves time and reduces administrative burden."',
+                                        '"I see widgets everywhere"\n',
                                     subtitle: 'Anas Rul',
                                     description: 'Mobile Developer',
                                   ),
                                   SizedBox(width: 25),
                                   BlueCard(
-                                    imagePath: 'assets/avatar.jpg',
+                                    imagePath: 'assets/Hafiz.jpeg',
                                     title:
-                                        '"Building a mobile app that saves time and reduces administrative burden."',
+                                        '"Why declare wars when we can declare variables?"',
                                     subtitle: 'Hafiz',
                                     description: 'BackEnd Developer',
                                   ),
                                   SizedBox(width: 25),
                                   BlueCard(
-                                    imagePath: 'assets/avatar.jpg',
+                                    imagePath: 'assets/Amar.jpg',
                                     title:
-                                        '"Building a mobile app that saves time and reduces administrative burden."',
+                                        '"Be Unique & Creative"\n',
                                     subtitle: 'Amarnath',
                                     description: 'Quality Analyst',
                                   ),
                                   SizedBox(width: 25),
                                   BlueCard(
-                                    imagePath: 'assets/avatar.jpg',
+                                    imagePath: 'assets/Pavi.jpeg',
                                     title:
-                                        '"Building a mobile app that saves time and reduces administrative burden."',
+                                        '"Shoutout to Plugin"\n',
                                     subtitle: 'Pavithra',
                                     description: 'Product Designer',
                                   ),

@@ -7,6 +7,7 @@ class BlueCard extends StatelessWidget {
   final String title;
   final String subtitle;
   final String description;
+  
 
   const BlueCard({
     super.key,
@@ -14,13 +15,14 @@ class BlueCard extends StatelessWidget {
     required this.title,
     required this.subtitle,
     required this.description,
+    
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
       height: 500,
-      width: 350,
+      width: 400,
       decoration: BoxDecoration(
         color: const Color(0xFF2A3C98),
         borderRadius: BorderRadius.circular(30),
